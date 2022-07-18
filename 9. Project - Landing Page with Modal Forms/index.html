@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page with Modal Forms</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7cac6f5ac1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner-text">
+        <h1>CodeAndCreate</h1>
+        <p>Learn how to code</p>
+      </div>
+      <div class="btns">
+        <button class="btn login-btn">Login</button>
+        <button class="btn signup-btn">Signup</button>
+      </div>
+      <div class="form-container">
+        <div class="signup-form-wrapper modal">
+          <div class="x-btn signup-x">&times;</div>
+          <div class="from-header">
+            <h1>CodeAndCreate</h1>
+            <h3>Join Us</h3>
+          </div>
+          <from class="form">
+            <div class="input-group">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+
+            <div class="input-group">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+
+            <div class="input-group">
+              <i class="fas fa-key"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <button type="submit">Signup</button>
+          </from>
+        </div>
+
+        <div class="login-form-wrapper modal">
+          <div class="x-btn login-x">&times;</div>
+          <div class="from-header">
+            <h1>CodeAndCreate</h1>
+            <h3>Log-In</h3>
+          </div>
+          <from class="form">
+            <div class="input-group">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+
+            <div class="input-group">
+              <i class="fas fa-key"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <button type="submit">Login</button>
+          </from>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
